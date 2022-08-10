@@ -12,4 +12,4 @@ max = a;
 if (max < b) max = b;
 if (max < c) max = c;
 
-Console.Write("The biggest number is = " + max);
+Console.Write("The max number is = " + max);
