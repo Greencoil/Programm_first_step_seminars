@@ -1,10 +1,4 @@
-﻿// Console.Write("Enter X: ");
-// int X = Convert.ToInt32(Console.ReadLine());
-
-// Console.Write("Enter Y: ");
-// int Y = Convert.ToInt32(Console.ReadLine());
-
-// Console.Write("Enter number from 1 till 4: ");
+﻿// Console.Write("Enter number from 1 till 4: ");
 // int number = Convert.ToInt32(Console.ReadLine());
 
 // if(number <= 2)
@@ -40,7 +34,7 @@ while (count < 5)
     try
     {
         //  int x = Convert.ToInt32(Console.ReadLine())
-        int x =Int32.Parse(Console.ReadLine());
+        int x = Int32.Parse(Console.ReadLine());
 
         string [] q1 = {"x > 0 и y > 0", "x < 0 и y > 0", "x < 0 и y < 0", "x > 0 и y < 0" };
         Console.WriteLine("диапазон значений дял четверти " + x + " равен: " + q1 [x-1]);
