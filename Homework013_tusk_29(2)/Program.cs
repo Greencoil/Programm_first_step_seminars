@@ -5,7 +5,7 @@ int[] b = new int[s.Length];
 int c = 0;
 if (s.Length == 8)
 {
-    while (c < s.Length)
+    while (c < s.Length - 1)
     {
         Console.Write($"{s[c]},");
         c++;
@@ -16,9 +16,9 @@ if (s.Length == 8)
 }
 if (s.Length < 8)
 {
-    Console.WriteLine("No, no, no (<)");
+    Console.WriteLine("No, no, no < numbers");
 }
 if (s.Length > 8)
 {
-    Console.WriteLine("No, no, no (>)");
+    Console.WriteLine("No, no, no > numbers");
 }
