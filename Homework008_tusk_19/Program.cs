@@ -1,5 +1,5 @@
 ﻿Console.WriteLine("Enter five-digit number: ");
-int a = int.Parse(Console.ReadLine());
+int a = Convert.ToInt32(Console.ReadLine());
 string str = a.ToString();
 int strLength = str.Length;
 

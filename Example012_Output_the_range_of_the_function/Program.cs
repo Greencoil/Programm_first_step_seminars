@@ -34,7 +34,7 @@ while (count < 5)
     try
     {
         //  int x = Convert.ToInt32(Console.ReadLine())
-        int x = Int32.Parse(Console.ReadLine());
+        int x = Convert.ToInt32(Console.ReadLine());
 
         string [] q1 = {"x > 0 и y > 0", "x < 0 и y > 0", "x < 0 и y < 0", "x > 0 и y < 0" };
         Console.WriteLine("диапазон значений дял четверти " + x + " равен: " + q1 [x-1]);
