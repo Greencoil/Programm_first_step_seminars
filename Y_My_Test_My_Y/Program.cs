@@ -27,9 +27,21 @@
 // }
 
 
-Console.Write("Enter 8 numbers: ");
-int a = Convert.ToInt32(Console.ReadLine());
-string s = a.ToString();
-int[] array = new int[s.Length];
+// Console.Write("Enter 8 numbers: ");
+// int a = Convert.ToInt32(Console.ReadLine());
+// string s = a.ToString();
+// int[] array = new int[s.Length];
 
-Console.Write(array[1]);
+// Console.Write(array[1]);
+
+Console.Write("Enter new number: ");
+int a = Convert.ToInt32(Console.ReadLine());
+int c = 0;
+string s = a.ToString();
+int b = 0;
+for (int i = 0; i < s.Length; i++)
+{
+    b = int.Parse(s[i].ToString());
+    c = b + c;
+}
+Console.Write("The amount is: " + c);
