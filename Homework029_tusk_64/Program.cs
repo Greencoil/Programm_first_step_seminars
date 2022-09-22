@@ -15,4 +15,5 @@ void RecursionNumbers(int a)
     }
 }
 Console.WriteLine();
-Console.Write("Числа по убыванию: " + RecursionNumbers(a));
+Console.Write("Числа по убыванию: ");
+RecursionNumbers(a);
